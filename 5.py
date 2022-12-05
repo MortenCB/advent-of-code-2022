@@ -11,11 +11,8 @@ for l in lines:
 		break
 	crateLines += 1
 
-print("Number of lines with crates: " + str(crateLines))
-
+# Figure out how many stacks of crates we have:
 numStacks = lines[crateLines].strip()[-1:]
-
-print("Number of stacks: " + str(numStacks))
 
 stacks = [[] for _ in range(int(numStacks))]
 
