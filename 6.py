@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# Find sliding target-oppgave vha set som ikke kan ha duplikat
 
 signal = open('6.input', 'r').read().strip()
 signalFound = False
