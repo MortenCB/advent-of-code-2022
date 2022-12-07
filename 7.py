@@ -21,4 +21,4 @@ print("Summen av alle mappene som er mindre eller lik 100'000 er: " +
 		str(sum(s for s in dirs.values() if s <= 100_000)))
 
 print("Den minste mappen som kan slettes for å få nok ledig plass (30'000'000) er: " + 
-		str(min(s for s in dirs.values() if s >= dirs[''] - 40_000_000)))
+		str(min(s for s in dirs.values() if s >= dirs[''] - 40000000)))
