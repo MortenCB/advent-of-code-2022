@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+# Innsyn og utsikt trehus.
+# Vanskelig oppgave, måtte se litt på forskjellige løsninger på reddit.
+
 from functools import partial
 import math
 
